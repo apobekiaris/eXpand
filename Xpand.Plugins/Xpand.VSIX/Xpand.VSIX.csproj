@@ -364,7 +364,7 @@
 
   -->
   <Target Name="BeforeBuild">
-    <Exec Condition=" '$(Configuration)' == 'Release'" WorkingDirectory="$(MSBuildProjectDirectory)" Command="powershell -NonInteractive -executionpolicy Unrestricted -command &quot;&amp; { &amp;'.\UpdateTemplates.ps1' '$(OutputPath)\$(AssemblyName).dll' } &quot;" ConsoleToMSBuild="true" />
   </Target>
   <Import Project="..\..\Support\Build\Nuget.Targets" />
+  <Import Project="..\..\Support\_third_party_assemblies\Packages\Fody.1.29.2\build\dotnet\Fody.targets" Condition="Exists('..\..\Support\_third_party_assemblies\Packages\Fody.1.29.2\build\dotnet\Fody.targets')" />
 </Project>

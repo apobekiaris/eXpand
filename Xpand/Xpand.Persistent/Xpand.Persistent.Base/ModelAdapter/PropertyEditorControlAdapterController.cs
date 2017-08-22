@@ -49,6 +49,7 @@ namespace Xpand.Persistent.Base.ModelAdapter{
         }
 
         private void GridListEditorOnCustomizeAutoFilterCellEditor(object sender, CustomHandleAutoFilterCellEditorEventArgs e){
+            ((ASPxGridListEditor) sender).CustomHandleAutoFilterCellEditor-=GridListEditorOnCustomizeAutoFilterCellEditor;
             ApplyModel((TModelMemberViewItem) e.ColumnModel,e.SourceEventArgs.EditorProperties);
         }
 

@@ -69,7 +69,8 @@ Extends XAF by adding great new features for example:
 * handling of external application models
 * combine end user modifications with application model
 * support for multiple models at design time
-aaaa
+
 <!-- <img src="/markdown/images/mdo1.png" alt="alt text" width="250"> -->
 ![""](/markdown/images/mdo1.png)
 ![](https://gyazo.com/eb5c5741b6a9a16c692170a41a49c858.png | width=100)aaa
+<img src="images/site/firstpage/excelimporter.win.png" alt="excelimporter.win" width="613" height="419" /><br /><img src="images/site/firstpage/excelimporter.web.png" alt="excelimporter.web" width="617" height="570" />
